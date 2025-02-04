@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Agencia de Viagens</title>
 </head>
 <body>
+    <!-- Tag semantica para cabeçalho -->
+    <header>
+        <h1 id="inicio">Agencia de Viagens</h1>
+        <nav>
+            <a href="#Inicio">Inicio</a>
+            <a href="#Destinos">Destinos</a>
+            <a href="#Pacote">Pacote</a>
+            <a href="#Contato">Contato</a>
+        </nav>
+    </header>
     
+    
+    <div class="container">
+<!-- Tag semantica para Lareral -->
+ <!-- Destinos Populares -->
+        <aside class="sidebar">
+            <h2 class="destinos">Destinos populares</h2>
+            <ul>
+                <l1><img src="img/paris.jpg" alt="Paris">Paris, FR</l1>
+                <l1><img src="img/ny.jpg" alt="Ny">Ney York, US</l1>
+                <l1><img src="img/riojaneiro.jpg" alt="riodejaneiro">Rio de Janeiro</l1>
+                <l1><img src="img/roma.jpg" alt="roma">Roma, IT</l1>
+                <l1><img src="img/tokio.jpg" alt="Tokio">Tokio, JP</l1>
+            </ul>
+        </aside>
+
+ <!--  Tag semantica para outras sessões  -->
+        <section class="main-content">
+            <h2 class="subtittle">Encontre o seu Destino</h2>
+            <form action="">
+                <input type="text" placeholder="Digite seu destino" required>
+                <input type="date" required>
+                <button type="submit">Procurar</button>
+            </form>
+        </section>
+
+        <aside class="secondary-content">
+            <h2 id="pacotes">Pacotes em Promoções</h2>
+            <ul>
+                <li><img src="img/cancun.jpg" alt="Cancun"><b>Praias Paradisiacas!</b>
+                <br>Pacote para Cancun - 5 dias por 3x R$2.500
+                </li>
+                <li><img src="img/londres.jpg" alt="Londre"><b>Intercambio britâmico</b>
+                <br>Pacote para Londres - 7 dias por 2x de R$4.000
+                </li>
+                <li><img src="img/noronha.jpg" alt="Fernando de Noronha"><b>Super Oportunidade!</b>
+                <br>Pacote para Fernando de Noronha - 4 dias por R$3.200</li>
+            </ul>
+        </aside>
+<!--  -->
+    </div>
+    <footer>
+        <p id="contatos">&copy; 2025 Agencia de Viagens - contato: contato@agenciaviagens.com"></p>
+    </footer>
 </body>
 </html>
