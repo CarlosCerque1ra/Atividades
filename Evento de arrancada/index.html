@@ -1,70 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evento de Arrancada</title>
-    <link rel="stylesheet" href="style.css">
+    <title>MegaRacing</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
 </head>
+
 <body>
+
     <!-- HEADER -->
-     <header id="event-subscription">
+    <header id="event-subscription">
         <div id="disclaimer">
-            <H2>MegaRacing</H2>
-            <p class="about-event">
-                Um evento para acelerar seu coração</p>
-                <p>Data do evento</p>
-                <p class="event-date">Domingo, 12 de Setembro, a partir das 10h</p>
+            <h2>MegaRacing</h2>
+            <p class="about-event">Um evento para acelerar seu coração</p>
+            <p>Data do evento:</p>
+            <p class="event-date">Domingo, 12 de Setembro, a partir das 10h</p>
         </div>
-        <div class="subscription-form">
-            <p>Preencha o formulario para receber os detalhes do evento</p>
+        <div id="subscription-form">
+            <p>Preencha o formulário para receber os detalhes do evento</p>
             <form>
                 <div class="form-group">
                     <label for="name">Nome</label>
-                    <input type="text" placeholder="Digite seu nome">
+                    <input type="text" id="name" placeholder="Digite seu nome" />
                 </div>
-
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" placeholder="Digite seu melor email">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="Digite seu melhor e-mail" />
                 </div>
-                
                 <div class="form-group">
-                    <label for="telefone">Telefone</label>
-                    <input type="text" placeholder="Numero do Whatzap">
+                    <label for="phone">Telefone</label>
+                    <input type="text" id="phone" placeholder="Número de Whatsapp" />
                 </div>
-                
                 <div class="form-group">
                     <label for="interest">Principal interesse</label>
-                    <select name="interest">
+                    <select name="interest" id="interest">
                         <option value="" disabled selected>Selecione</option>
-                        <option value="">Novos Modelos</option>
-                        <option value="">Peças</option>
-                        <option value="">Acessórios</option>
-                        <option value="">Outros</option>
+                        <option value="apartment">Novos modelos</option>
+                        <option value="house">Peças</option>
+                        <option value="garden">Acessórios</option>
+                        <option value="other">Outro</option>
                     </select>
                 </div>
+                <input type="submit" class="btn" value="Quero me inscrever" />
             </form>
         </div>
-     </header>
+    </header>
 
-     <!-- SECTION -->
-      <section id="key-benefits">
-        <h2>Explore a linha de automoveis: </h2>
+    <!-- SECTION -->
+    <section id="key-benefits">
+        <h2>Explore a linha de Automoveis:</h2>
         <div class="benefits">
-            <div class="benefits">
-                <div id="beneft-1" class="benefit-img"></div>
-                <p>Os melhores projetos!</p>
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img"></div>
+                <p>Os melhores Projetos!</p>
             </div>
+            <div class="benefit">
+                <div id="benefit-2" class="benefit-img"></div>
+                <p>Os mais velozes!</p>
+            </div>
+            <div class="benefit">
+                <div id="benefit-3" class="benefit-img"></div>
+                <p>Mais INSANOS!</p>
+            </div>
+        </div>
+    </section>
 
-        <div class="benefits">
-            <div id="benefit-2" class="benefit-img"></div>
-            <p>
-                Os mais velozes!
-            </p>
+    <!-- SECTION -->
+     <section id="location">
+       <div class="fundo">
+        <img src="img/img7.jpeg" alt="carro 7">
+       </div>
+    </section>
+
+    <!-- SECTION -->
+    <section id="details">
+        <div class="detail" id="detail-1">
+            <img src="img/img9.jpg" alt="carro 1" />
+            <div class="detail-description">
+                <h3>Velocidades INSANAS!</h3>
+            </div>
         </div>
+        <div class="detail" id="detail-2">
+            <div class="detail-description">
+                <h3>Varios Veiculos:</h3>
+                <ul>
+                    <li>Opala</li>
+                    <li>Caravan</li>
+                    <li>Maverick</li>
+                    <li>Gol</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </div>
+            <img src="img/img3.jpg" alt="Carro2" />
         </div>
-      </section>
+        <div class="detail" id="detail-3">
+            <img src="img/img8.jpg" alt="carro 3" />
+            <div class="detail-description">
+                <h3>Experiências</h3>
+                <ul>
+                    <li>Acesso aos boxes</li>
+                    <li>Área dos pilotos</li>
+                    <li>Arquibancada exclusiva</li>
+                    <li>Exposição de carros</li>
+                    <li>Muita adrenalina</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION -->
+    <section id="cta">
+        <h3>Gostou? Então se inscreva:</h3>
+        <button class="btn">Solicitar Inscrição</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <h3>MegaRacing</h3>
+        <p>Evento de Prova de Arrancada</p>
+        <p><span>Entre em contato:</span> contact@megaracing.com.br</p>
+        <p><span>Ou pelo telefone:</span> (19)99990-9999</p>
+    </footer>
+
 </body>
+
 </html>
