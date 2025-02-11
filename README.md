@@ -1,3 +1,4 @@
+# **Primeiro projeto: Agencia de Viagens**
 ![image](https://github.com/user-attachments/assets/b308985b-0d9c-4537-ad97-b28ff822e2c6)
 
 Protótipo de alta fidelidade feito no figma <br>
@@ -200,4 +201,18 @@ img {
     }
 }
 ```
+
+# **Segundo projeto: Evento de Arrancada**
+![image](https://github.com/user-attachments/assets/5c629ff5-17f2-4408-bba7-af33e3529383)
+![image](https://github.com/user-attachments/assets/a0701a65-f23a-4c80-a952-504b7e461771)
+![image](https://github.com/user-attachments/assets/eab954de-12f3-46a9-b9c4-ac7dcf234d99)
+![image](https://github.com/user-attachments/assets/bea42037-1b98-4240-9a15-6c79e0096cb9)
+![image](https://github.com/user-attachments/assets/32e4e57f-002e-4257-b6b9-b720d4537858)
+
+Protótipo de alta fidelidade feito no figma <br>
+https://www.figma.com/design/k8Rfq7ni07iPnXDrljkIcr/Untitled?node-id=0-1&p=f&t=G6SMKtNVHndVlTCQ-0
+
+
+
+
 
